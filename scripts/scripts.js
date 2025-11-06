@@ -40,6 +40,8 @@ async function loadFonts() {
   }
 }
 
+export function moveInstrumentation(from, to) {}
+
 /**
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
