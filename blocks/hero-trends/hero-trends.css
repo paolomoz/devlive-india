@@ -1,0 +1,126 @@
+.hero-trends {
+  background-color: rgba(139, 254, 248, 0.5); /* Light cyan/turquoise background */
+  min-height: 884px;
+  position: relative;
+}
+
+.hero-trends-wrapper {
+  max-width: 1248px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  display: flex;
+  gap: 96px;
+  align-items: center;
+}
+
+.hero-trends-content {
+  flex: 1;
+  max-width: 575px;
+}
+
+.hero-trends-author {
+  font-family: var(--body-font-family);
+  font-size: 14.4px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.144px;
+  line-height: 18.72px;
+  margin-bottom: 16px;
+}
+
+.hero-trends-headline {
+  font-family: var(--heading-font-family);
+  font-size: 90.4px;
+  font-weight: 400;
+  line-height: 94.02px;
+  letter-spacing: -0.904px;
+  color: #000;
+  margin: 0 0 40px 0;
+}
+
+.hero-trends-description {
+  font-family: var(--body-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 51.2px;
+  color: #000;
+  margin: 0 0 40px 0;
+}
+
+.hero-trends-cta-text {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 24px 0;
+}
+
+.hero-trends-button {
+  display: inline-block;
+  padding: 16px 24px;
+  min-width: 121px;
+  background-color: transparent;
+  color: #000;
+  border-radius: 1600px;
+  box-shadow: 0px 0px 0px 2px inset #000000, 4px 4px 0px 0px rgba(244, 254, 139, 0.5);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s;
+}
+
+.hero-trends-button:hover {
+  box-shadow: 0px 0px 0px 2px inset #000000, 7px 7px 0px 0px rgba(244, 254, 139, 0.5);
+}
+
+.hero-trends-image {
+  flex: 1;
+  max-width: 576px;
+}
+
+.hero-trends-image picture {
+  display: block;
+}
+
+.hero-trends-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+}
+
+/* Mobile responsive */
+@media (width < 900px) {
+  .hero-trends {
+    min-height: auto;
+  }
+
+  .hero-trends-wrapper {
+    flex-direction: column;
+    gap: 40px;
+    padding: 32px 16px;
+  }
+
+  .hero-trends-content {
+    max-width: 100%;
+  }
+
+  .hero-trends-headline {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.48px;
+  }
+
+  .hero-trends-description {
+    font-size: 18px;
+    line-height: 28.8px;
+  }
+
+  .hero-trends-image {
+    max-width: 100%;
+  }
+}
