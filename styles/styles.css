@@ -229,8 +229,8 @@ button {
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
-  background-color: var(--dark-color);
-  color: var(--text-color-inverse);
+  background-color: transparent;
+  color: var(--text-color);
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
