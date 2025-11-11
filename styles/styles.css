@@ -239,8 +239,8 @@ button {
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
-  background-color: transparent;
-  color: var(--text-color);
+  background-color: var(--dark-color);
+  color: var(--text-color-inverse);
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -253,7 +253,8 @@ a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--button-background-hover);
+  background-color: var(--text-color);
+  color: var(--text-color-inverse);
   box-shadow: var(--button-box-shadow-hover);
   cursor: pointer;
 }
