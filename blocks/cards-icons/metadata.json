@@ -43,8 +43,8 @@
     "padding": "16px"
   },
   "usage": {
-    "pagesUsing": ["/index"],
-    "reuseCount": 1,
-    "lastUsed": "2025-11-11T08:20:00.000Z"
+    "pagesUsing": ["/index", "/index"],
+    "reuseCount": 2,
+    "lastUsed": "2025-11-12T07:18:00.000Z"
   }
 }
