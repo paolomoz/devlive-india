@@ -1,0 +1,50 @@
+{
+  "variantName": "cards-icons",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-11-11T08:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://wknd-trendsetters.site/",
+    "originPage": "WKND Trendsetters homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "feature-grid",
+    "imagePattern": "icon",
+    "textLength": "short"
+  },
+  "contentPattern": {
+    "structure": "icon/emoji + description per card",
+    "headingMaxLength": 0,
+    "descriptionMaxLength": 100,
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature grids with icons/emojis",
+      "benefit lists with visual indicators",
+      "text-focused cards with small images"
+    ],
+    "notSuitableFor": [
+      "large image galleries",
+      "cards with headings",
+      "single column layouts"
+    ],
+    "similarVariants": []
+  },
+  "designTokens": {
+    "primaryColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "fontFamily": "system-ui",
+    "headingSize": "0",
+    "padding": "16px"
+  },
+  "usage": {
+    "pagesUsing": ["/index", "/index"],
+    "reuseCount": 2,
+    "lastUsed": "2025-11-12T07:18:00.000Z"
+  }
+}
